@@ -1,0 +1,4 @@
+dog
+rabbit
+cat
+human
