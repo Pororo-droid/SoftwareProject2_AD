@@ -301,10 +301,6 @@ class CView(QGraphicsView):
                 rect = QRectF(self.start, self.end)
                 self.scene.addEllipse(rect, pen, brush)
 
-        print(1)
-        img = QPixmap(self.view.grab(self.view.sceneRect().toRect()))
-        img.save('./images/test.png')
-        self.cpAnswer.setText(CPU.start())
 
 def start_main():
     app = QApplication(sys.argv)
